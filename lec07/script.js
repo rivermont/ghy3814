@@ -12,3 +12,23 @@ var route = L.polyline([[36.214314, -81.681692],[36.215239, -81.682050],[36.2157
 
 coffee.bindPopup("Espresso News").openPopup();
 rsw.bindPopup("Rankin Science West");
+
+
+// popup on mouse click
+var clickPop = L.popup();
+
+function onMapClick(e) {
+	clickPop.setLatLng(e.latlng).setContent("ree").openOn(map);
+}
+
+map.on('click', onMapClick);
+
+
+// loading GeoJSON
+
+L.geoJson.ajax("route2.js", {
+    onEachFeature: function(feature, layer) {layer.bindPopup(feature.properties.name);
+  }
+ }).addTo(map);
+
+
