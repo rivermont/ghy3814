@@ -11,37 +11,54 @@
 	body {
 	margin: 0;
 	padding: 0;
+	font-family: "Computer Modern";
 	}
 	#map {
 	position: absolute;
 	height: 100%;
 	width: 100%;
+	}
+	#content {
 	
 	}
 	</style>
 </head>
 <body>
 	<div id="map"></div>
+	<h1>Optimal Birding Locations between Durham and Boone, NC</h1>
+	<div id="content">
+	test
+	</div>
+	
+	<!-- Leaflet code -->
 	<script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
+	<script src="./route.js"></script>
+	<script src="./hotspots.js"></script>
 	<script>
 	var options = {
-		center: [36.5, -79],
-		zoom: 15,
+		center: [36.1, 80],
+		zoom: 9,
 		zoomControl: false
 	}
 	
 	var map = L.map('map', options);
-			
+	
 	L.control.zoom({
 		position: 'topright'
 	}).addTo(map);
-		
+	
 	var Esri_NatGeoWorldMap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}', {
 		attribution: 'Tiles &copy; Esri &mdash; National Geographic, Esri, DeLorme, NAVTEQ, UNEP-WCMC, USGS, NASA, ESA, METI, NRCAN, GEBCO, NOAA, iPC',
-		maxZoom: 16
+		maxZoom: 14
 	}).addTo(map);
-
+	
+	// display data
+	var route = L.geoJson(dataRoute).addTo(map);
+	var hotspots = L.geoJson(dataHotspots).addTo(map);
+	
+	map.fitBounds(route.getBounds());
+    
 	</script>
 </body>
 </html>
