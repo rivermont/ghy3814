@@ -4,41 +4,66 @@
 	<meta charset=utf-8 />
 	<title>Lab 3 - GHY 3814</title>
 	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-
-	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css" /> -->
+    
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" />
 	<style>
+	@font-face {
+    font-family: "Computer Modern";
+    src: url('./cmunss.otf');
+    }
+    
 	body {
 	margin: 0;
 	padding: 0;
-	font-family: "Computer Modern";
 	}
 	#map {
 	position: absolute;
 	height: 100%;
 	width: 100%;
 	}
+	#title {
+	position: absolute;
+	margin: 12px 0 0 12px;
+	padding: 10px 12px;
+	background: #efefef;
+	border: 1px solid grey;
+	z-index: 800;
+	}
 	#content {
-	
+	position: absolute;
+	bottom: 0;
+	margin: 0 0 12px 12px;
+	padding: 8px;
+	max-width: 30%;
+	background: #efefef;
+	border: 1px solid grey;
+	z-index: 800;
+	}
+	#content p {
+	margin: 0;
+	font-family: "Computer Modern";
 	}
 	</style>
 </head>
 <body>
 	<div id="map"></div>
-	<h1>Optimal Birding Locations between Durham and Boone, NC</h1>
+	<h1 id="title">Optimal Birding Locations between Durham and Boone, NC</h1>
 	<div id="content">
-	test
+	<p>This map highlights the most optimal locations to stop for birding while driving from Durham to Boone.
+	The sites were chosen from nearby eBird hotspots using a site suitability metric that included distance to the route and number of observed bird species.</p><br>
+	<p>Clicking on each hotspot marker displays the number of bird species recorded there, and a link to the hotspot's page on eBird.org.</p><br>
+	<p>Author: <a href="https://rivermont.xyz">Will Bennett</a></p>
 	</div>
 	
+	<!--<script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>-->
 	<!-- Leaflet code -->
-	<script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
 	<script src="./route.js"></script>
 	<script src="./hotspots.js"></script>
 	<script>
 	var options = {
-		center: [36.1, 80],
-		zoom: 9,
+		// center: [36.1, 80],
+		// zoom: 9,
 		zoomControl: false
 	}
 	
@@ -54,9 +79,26 @@
 	}).addTo(map);
 	
 	// display data
-	var route = L.geoJson(dataRoute).addTo(map);
-	var hotspots = L.geoJson(dataHotspots).addTo(map);
+	var route = L.geoJson(dataRoute, {
+	    style: function(feature) {
+            return {
+            lineJoin: "miter",
+            color: "#1c9099",
+            weight: 5,
+            //opacity: 0.2,
+            dashArray: "10, 8"
+            }
+        }
+    }).addTo(map);
 	
+	var hotspots = L.geoJson(dataHotspots, {
+	    onEachFeature: function(feature, layer) {
+	        layer.bindPopup(feature.properties['description']);
+            layer.bindTooltip(feature.properties['name']);
+        }
+	}).addTo(map);
+	
+	// zoom map to data extent
 	map.fitBounds(route.getBounds());
     
 	</script>
