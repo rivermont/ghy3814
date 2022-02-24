@@ -1,4 +1,4 @@
-## Lab 03&emdash;Optimal Birding Routes
+## Lab 03&#8212;Optimal Birding Routes
 
 This map shows a driving route between Durham, North Carolina and Boone, North Carolina, and highlights optimal birding locations (hotspots) along the route.
 The optimal hotspots are both close to the main route and have high species totals.
