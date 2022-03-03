@@ -1,0 +1,755 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1,
+        "name": "Alabama",
+        "estimate": 4903185
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.79113,
+          32.806671
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2,
+        "name": "Alaska",
+        "estimate": 731545
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.404419,
+          61.370716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3,
+        "name": "Arizona",
+        "estimate": 7278717
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.431221,
+          33.729759
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4,
+        "name": "Arkansas",
+        "estimate": 3017804
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.373123,
+          34.969704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5,
+        "name": "California",
+        "estimate": 39512223
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.681564,
+          36.116203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6,
+        "name": "Colorado",
+        "estimate": 5758736
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.311104,
+          39.059811
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7,
+        "name": "Connecticut",
+        "estimate": 3565287
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.755371,
+          41.597782
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 8,
+        "name": "Delaware",
+        "estimate": 973764
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.507141,
+          39.318523
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 9,
+        "name": "Florida",
+        "estimate": 21477737
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.686783,
+          27.766279
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 10,
+        "name": "Georgia",
+        "estimate": 10617423
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.643074,
+          33.040619
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 11,
+        "name": "Hawaii",
+        "estimate": 1415872
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -157.498337,
+          21.094318
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 12,
+        "name": "Idaho",
+        "estimate": 1787065
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.478828,
+          44.240459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 13,
+        "name": "Illinois",
+        "estimate": 12671821
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.986137,
+          40.349457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 14,
+        "name": "Indiana",
+        "estimate": 6732219
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.258278,
+          39.849426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 15,
+        "name": "Iowa",
+        "estimate": 3155070
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.210526,
+          42.011539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 16,
+        "name": "Kansas",
+        "estimate": 2913314
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.726486,
+          38.5266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 17,
+        "name": "Kentucky",
+        "estimate": 4467673
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.670067,
+          37.66814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 18,
+        "name": "Louisiana",
+        "estimate": 4648794
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.867805,
+          31.169546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 19,
+        "name": "Maine",
+        "estimate": 1344212
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.381927,
+          44.693947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 20,
+        "name": "Maryland",
+        "estimate": 6045680
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.802101,
+          39.063946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 21,
+        "name": "Massachusetts",
+        "estimate": 6892503
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.530106,
+          42.230171
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 22,
+        "name": "Michigan",
+        "estimate": 9986857
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.536095,
+          43.326618
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 23,
+        "name": "Minnesota",
+        "estimate": 5639632
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.900192,
+          45.694454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 24,
+        "name": "Mississippi",
+        "estimate": 2976149
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.678696,
+          32.741646
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 25,
+        "name": "Missouri",
+        "estimate": 6137428
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.288368,
+          38.456085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 26,
+        "name": "Montana",
+        "estimate": 1068778
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.454353,
+          46.921925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 27,
+        "name": "Nebraska",
+        "estimate": 1934408
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.268082,
+          41.12537
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 28,
+        "name": "Nevada",
+        "estimate": 3080156
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.055374,
+          38.313515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 29,
+        "name": "New Hampshire",
+        "estimate": 1359711
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.563896,
+          43.452492
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 30,
+        "name": "New Jersey",
+        "estimate": 8882190
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.521011,
+          40.298904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 31,
+        "name": "New Mexico",
+        "estimate": 2096829
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.248482,
+          34.840515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 32,
+        "name": "New York",
+        "estimate": 19453561
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.948051,
+          42.165726
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 33,
+        "name": "North Carolina",
+        "estimate": 10488084
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.806419,
+          35.630066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 34,
+        "name": "North Dakota",
+        "estimate": 762062
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.784012,
+          47.528912
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 35,
+        "name": "Ohio",
+        "estimate": 11689100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.764915,
+          40.388783
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 36,
+        "name": "Oklahoma",
+        "estimate": 3956971
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.928917,
+          35.565342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 37,
+        "name": "Oregon",
+        "estimate": 4217737
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.070938,
+          44.572021
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 38,
+        "name": "Pennsylvania",
+        "estimate": 12801989
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.209755,
+          40.590752
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 39,
+        "name": "Rhode Island",
+        "estimate": 1059361
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.51178,
+          41.680893
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 40,
+        "name": "South Carolina",
+        "estimate": 5148714
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.945007,
+          33.856892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 41,
+        "name": "South Dakota",
+        "estimate": 884659
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.438828,
+          44.299782
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 42,
+        "name": "Tennessee",
+        "estimate": 6829174
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.692345,
+          35.747845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 43,
+        "name": "Texas",
+        "estimate": 28995881
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.563461,
+          31.054487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 44,
+        "name": "Utah",
+        "estimate": 3205958
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.862434,
+          40.150032
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 45,
+        "name": "Vermont",
+        "estimate": 623989
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.710686,
+          44.045876
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 46,
+        "name": "Virginia",
+        "estimate": 8535519
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.169968,
+          37.769337
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 47,
+        "name": "Washington",
+        "estimate": 7614893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.490494,
+          47.400902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 48,
+        "name": "West Virginia",
+        "estimate": 1792147
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.954453,
+          38.491226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 49,
+        "name": "Wisconsin",
+        "estimate": 5822434
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.616508,
+          44.268543
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 50,
+        "name": "Wyoming",
+        "estimate": 578759
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.30249,
+          42.755966
+        ]
+      }
+    }
+  ]
+}
