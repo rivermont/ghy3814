@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en_US">
   <head>
-    <title>Bird Species by State</title>
+    <title>Bird Species by US State</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.0/dist/leaflet.css"/>
@@ -30,6 +30,7 @@
         background: rgba(255, 255, 255, 0.8);
         box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
         border-radius: 5px;
+        min-width: 100px;
     }
     .info h1 {
         font-size: 16px;
@@ -103,7 +104,7 @@
         };
     }
 
-    // Add states file to the map
+    // Create info box
     var info = L.control();
     info.onAdd = function (map) {
       this._div = L.DomUtil.create('div', 'info'); // create a div with a class "info"
@@ -111,9 +112,9 @@
       return this._div;
     };
 
-    // Update info box
+    // For updating info box
     info.update = function (props) {
-        this._div.innerHTML = '<h4>US Population Density</h4>' +  (props ?
+        this._div.innerHTML = '<h4>Bird Species by State</h4>' +  (props ?
         '<b>' + props.name + '</b><br />' + props.species + ' species'
         : 'Hover over a state');
     };
@@ -135,7 +136,7 @@
 
         // select the update class, and update the content with the input value.
         info.update(layer.feature.properties);
-  }
+    }
 
     // Reset the hightlighted feature when the mouse is out of its region.
     function resetHighlight(e) {
@@ -149,36 +150,31 @@
         map.fitBounds(e.target.getBounds());
     }
 
-                  // now use on each feature option to add listeners on our state layers
-                  // now use on each feature option to add listeners on our state layers
-                  // 3.3 add these events to the layer object.
-
     function onEachFeature(feature, layer) {
-                  layer.on({
-                  mouseover: highlightFeature,
-                  click: zoomToFeature,
-                  mouseout: resetHighlight
-                  });
-                  }
+        layer.on({
+            mouseover: highlightFeature,
+            click: zoomToFeature,
+            mouseout: resetHighlight
+        });
+    }
 
 
-      //3.4 Add the states GeoJSON layer to the map
-      var geojson = null;
-      geojson = L.geoJson.ajax("./us-states.geojson", {
-          style: style,
-          onEachFeature: onEachFeature
-      }).addTo(map);
+    // Add the states layer to the map
+    var geojson = null;
+    geojson = L.geoJson.ajax("./us-states.geojson", {
+        style: style,
+        onEachFeature: onEachFeature
+    }).addTo(map);
 
-      // 4. create the legend
+    // Create the legend
+    var labels = [];
 
-      var labels = [];
+    for (var i = 0; i < grades.length - 1; i++) {
+        labels.push('<i style="background:' + colors[i] + '"></i> ' + grades[i] + ' - ' + grades[i + 1]);
+    }
 
-      for (var i = 0; i < grades.length - 1; i++) {
-          labels.push('<i style="background:' + colors[i] + '"></i> ' + grades[i] + ' - ' + grades[i + 1]);
-      }
-
-      labels.push('<i style="background:' + colors[grades.length - 1] + '"></i> ' + grades[grades.length - 1] + ' +');
-      $(".legend").html(labels.join('<br>'));
+    labels.push('<i style="background:' + colors[grades.length - 1] + '"></i> ' + grades[grades.length - 1] + ' +');
+    $(".legend").html(labels.join('<br>'));
 
 
     // data source
