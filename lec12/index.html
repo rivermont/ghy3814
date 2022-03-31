@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Buncombe County Airbnbs (2020)</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.0/dist/leaflet.css"/>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
     <style>
     html, body, #map {
         width: 100%;
@@ -24,7 +24,6 @@
         box-shadow: 0 0 15px rgba(0,0,0,0.2);
         border-radius: 5px;
     }
-
     .legend i {
         width: 20px;
         height: 20px;
@@ -32,14 +31,12 @@
         margin-right: 8px;
         opacity: 0.9;
     }
-
     .legend img {
         width: 16px;
         height: 16px;
         margin-right: 3px;
         float: left;
     }
-
     .legend p {
         font-size: 14px;
         line-height: 20px;
@@ -63,20 +60,20 @@
             detectRetina: true // detect whether the screen is high resolution or not
         });
 
-        L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png').addTo(lemap);
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png').addTo(lemap);
 
         var airbnb_listings = null
 
         airbnb_listings = L.geoJson.ajax("airbnb_listings.geojson",{
             onEachFeature: function (feature, layer) {
-                layer.bindPopup(feature.properties.property_t);
+                layer.bindPopup("<a href='" + feature.properties.listing_ur + "' target='_blank'>" + feature.properties.property_t + "</a>");
             },
             pointToLayer: function(feature, latlng) {
                 var id = 0;
                 if (feature.properties.property_t == "Entire house") { id = 0; }
                 else if (feature.properties.property_t == "Private room in house")  { id = 1; }
                 else { id = 2; } // All other property types from attribute table
-                return L.marker(latlng, {icon: L.divIcon({className: 'fab fa-airbnb marker-color-' + (id + 1).toString() })});
+                return L.marker(latlng, {icon: L.divIcon({className: 'fa-brands fa-airbnb marker-color-' + (id + 1).toString() })});
             },
             attribution: "Airbnb Listings &copy; Inside Airbnb | Asheville Zoning Districts &copy; City of Asheville Open Data | Base Map &copy; CartoDB | <a href=\'https://rivermont.xyz\'>Map by Will Bennett</a>"
         }).addTo(lemap);
@@ -95,11 +92,11 @@
 
         function setColor(density) {
             var id = 0;
-            if (density > 106) { id = 4; } //133-27=106:highest fifth class
-            else if (density > 79 && density <= 106) { id = 3; } //106-27=79:4thclass
-            else if (density > 52 && density <= 79) { id = 2; } //79-27=52:3rdclass
-            else if (density > 25 &&  density <= 52) { id = 1; } //52-27=25:2ndclass
-            else  { id = 0; }
+            if (density > 106) { id = 4; } // 133-27=106:highest fifth class
+            else if (density > 79 && density <= 106) { id = 3; } // 106-27=79:4thclass
+            else if (density > 52 && density <= 79) { id = 2; } // 79-27=52:3rdclass
+            else if (density > 25 &&  density <= 52) { id = 1; } // 52-27=25:2ndclass
+            else { id = 0; }
             return colors[id];
         }
 
@@ -121,25 +118,21 @@
         var legend = L.control({position: 'topright'});
 
         legend.onAdd = function () {
-            // Create Div Element and Populate it with HTML
             var div = L.DomUtil.create('div', 'legend');
-            //this line creates a title for the choropleth part of the legend
             div.innerHTML += '<b>Airbnbs per District</b><br />';
-            //notice the class breaks entered at the end of the next 5 lines
-            //the colors specify the shade of purple that we used to do the polygon shading
+
             div.innerHTML += '<i style="background: ' + colors[4] + '; opacity: 0.5"></i><p>107+</p>';
             div.innerHTML += '<i style="background: ' + colors[3] + '; opacity: 0.5"></i><p>80-106</p>';
             div.innerHTML += '<i style="background: ' + colors[2] + '; opacity: 0.5"></i><p>53-79</p>';
             div.innerHTML += '<i style="background: ' + colors[1] + '; opacity: 0.5"></i><p>26-52</p>';
             div.innerHTML += '<i style="background: ' + colors[0] + '; opacity: 0.5"></i><p> 0-25</p>';
-            //this line provides the legend title for the airbnb colored symbols
+
             div.innerHTML += '<hr><b>Property Type<b><br />';
-            //the next 3 lines call the airbnb icon along with its proper color
-            //notice the names of the Airbnb property types listed within the <p> tags at the end of the lines
+
             div.innerHTML += '<i class="fab fa-airbnb marker-color-1"></i><p>Entire house</p>';
             div.innerHTML += '<i class="fab fa-airbnb marker-color-2"></i><p>Private room in house</p>';
             div.innerHTML += '<i class="fab fa-airbnb marker-color-3"></i><p>Other</p>';
-            // Return the Legend div containing the HTML content
+
             return div;
         };
 
