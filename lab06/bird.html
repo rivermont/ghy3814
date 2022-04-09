@@ -69,9 +69,9 @@
     <script>
         var map = L.map('map', {
             center: [35.5946,-82.5540], // TODO update
-            zoom: 13,
-            maxZoom: 18,
-            minZoom: 11,
+            zoom: 7,
+            maxZoom: 12,
+            minZoom: 6,
             detectRetina: true
         });
 
@@ -79,13 +79,7 @@
         
         
         // styling for counties (green)
-        colors = chroma.scale('Greens').colors(5);
-        
-        // 150-189
-        // 190-212
-        // 213-229
-        // 230-278
-        // 279-439
+        colors = chroma.scale('Greens').colors(10);
         
         function setColor(sp) {
             var id = 0;
@@ -93,7 +87,7 @@
             else if (sp > 229 && sp <= 278) { id = 3; }
             else if (sp > 212 && sp <= 229) { id = 2; }
             else if (sp > 189 && sp <= 212) { id = 1; }
-            return colors[id];
+            return colors[id+5];
         }
         
         function style(feature) {
@@ -111,7 +105,6 @@
         L.geoJson.ajax("assets/counties.geojson", {style: style}).addTo(map);
         
         // load iba data
-        
         var ibas = null;
         
         ibas = L.geoJson.ajax("assets/ibas.geojson", {
@@ -120,7 +113,7 @@
                 if (feature.properties.Priority == "State") { id = 1; }
                 else if (feature.properties.Priority == "Continental") { id = 2; }
                 else if (feature.properties.Priority == "Global") { id = 3; }
-                return L.marker(latlng, {icon: L.divIcon({className: 'fa fa-tree marker-color-' + id.toString() })});
+                return L.marker(latlng, {icon: L.divIcon({className: 'fa fa-tree marker marker-color-' + id.toString() })});
             },
             attribution: "United States Census Bureau | <a href=\'https://ebird.org/region/US-NC/regions\'>Species data</a> from eBird, Cornell Lab of Ornithology | <a href=\'https://www.audubon.org/important-bird-areas/state/north-carolina\'>IBA data</a> from Audubon | Basemap style &copy; CartoDB, data &copy; <a href=\'https://www.openstreetmap.org/copyright\'>OpenStreetMap contributors</a> | <a href=\'https://rivermont.xyz\'>Map by Will Bennett</a>"
             }).addTo(map);
