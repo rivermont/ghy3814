@@ -64,7 +64,7 @@
 
         var airbnb_listings = null
 
-        airbnb_listings = L.geoJson.ajax("airbnb_listings.geojson",{
+        airbnb_listings = L.geoJson.ajax("assets/irbnb_listings.geojson",{
             onEachFeature: function (feature, layer) {
                 layer.bindPopup("<a href='" + feature.properties.listing_ur + "' target='_blank'>" + feature.properties.property_t + "</a>");
             },
@@ -112,7 +112,7 @@
         }
 
         // loading zoning data
-        L.geoJson.ajax("zoning_districts.geojson", {style: style}).addTo(lemap);
+        L.geoJson.ajax("assets/zoning_districts.geojson", {style: style}).addTo(lemap);
 
         // Legend
         var legend = L.control({position: 'topright'});
