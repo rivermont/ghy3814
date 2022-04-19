@@ -1,0 +1,204 @@
+State,County,Date Confirmed,Flock Type,Flock Size
+Indiana,Dubois ,2/8/2022,Commercial Turkeys,"29,015"
+Virginia,Fauquier,2/12/2022,Backyard Mixed Species (non-poultry),90
+Kentucky,Fulton,2/12/2022,Commercial Broiler Chickens,"231,398"
+Indiana,Dubois,2/16/2022,Commercial Turkeys,"26,625"
+Kentucky,Webster,2/15/2022,Commercial Turkeys,"53,286"
+New York,Suffolk,2/18/2022,Backyard Pet Chickens (non-poultry),8
+Maine,Knox,2/19/2022,Backyard Mixed Species (non-poultry),27
+Delaware,New Castle,2/22/2022,Commercial Poultry,"1,146,937"
+Michigan,Kalamazoo,2/23/2022,Backyard Mixed Species (non-poultry),43
+Maine,Knox,2/23/2022,Backyard Pet Chickens (non-poultry),96
+Indiana,Greene,2/23/2022,Commercial Turkeys,"48,211"
+Indiana,Greene,2/23/2022,Commercial Turkeys,"15,400"
+New York,Dutchess,2/24/2022,Captive Wild Birds (non-poultry),195
+New York,Ulster,2/24/2022,Backyard Mixed Species (non-poultry),65
+Indiana,Dubois,2/24/2022,Commercial Turkeys,"35,988"
+Connecticut,New London,3/1/2022,Backyard Mixed Species (non-poultry),155
+Iowa,Pottawattamie,3/1/2022,Backyard Mixed Species (non-poultry),42
+Indiana,Dubois,3/2/2022,Commercial Turkeys,"16,494"
+Missouri,Bates,3/4/2022,Backyard Mixed Species (non-poultry),51
+Missouri,Stoddard,3/4/2022,Commercial Broiler Chickens,"294,818"
+Maryland,Cecil,3/4/2022,Commercial Layer Chickens,"496,272"
+South Dakota,Charles Mix,3/5/2022,Commercial Mixed Species,"44,123"
+Iowa,Buena Vista,3/6/2022,Commercial Turkeys,"49,816"
+Delaware,New Castle,3/8/2022,Commercial Pullet Chickens,"265,000"
+Maryland,Queen Anne's,3/8/2022,Commercial Broiler Chickens,"139,327"
+Missouri,Jasper,3/8/2022,Commercial Turkeys,"25,015"
+Missouri,Lawrence,3/9/2022,Commercial Turkeys,"37,770"
+Maryland,Cecil,3/10/2022,Commercial Layer Chickens,"664,061"
+Iowa,Taylor,3/10/2022,Commercial Layer Chickens,"915,925"
+Kansas,Franklin,3/11/2022,Backyard Mixed Species (poultry),264
+Illinois,McLean,3/11/2022,Backyard Mixed Species (non-poultry),35
+Maine,Lincoln,3/12/2022,Backyard Mixed Species (non-poultry),98
+South Dakota,Charles Mix,3/12/2022,Commercial Turkeys,"37,485"
+Wisconsin,Jefferson,3/14/2022,Commercial Layer Chickens,"2,757,768"
+Maine,York,3/14/2022,Backyard Mixed Species (non-poultry),173
+Missouri,Ralls,3/15/2022,Backyard Mixed Species (non-poultry),104
+Nebraska,Merrick,3/15/2022,Backyard Mixed Species (non-poultry),90
+New Hampshire,Rockingham,3/17/2022,Backyard Mixed Species (non-poultry),80
+Delaware,Kent,3/17/2022,Commercial Broiler Chickens,"147,753"
+Kansas,Sedgwick,3/17/2022,Backyard Mixed Species (non-poultry),6
+Maine,Lincoln,3/17/2022,Backyard Mixed Species (non-poultry),29
+Iowa,Buena Vista,3/17/2022,Commercial Layer Chickens,"5,347,511"
+South Dakota,Kingsbury,3/18/2022,Commercial Turkeys,"39,157"
+South Dakota,Hanson,3/18/2022,Commercial Turkeys,"20,233"
+Maryland,Cecil,3/18/2022,Commercial Pullet Chickens,"315,000"
+Kansas,Dickinson,3/18/2022,Backyard Mixed Species (poultry),245
+Maine,York,3/19/2022,Backyard Mixed Species (non-poultry),65
+Maine,Knox,3/19/2022,Backyard Mixed Species (non-poultry),19
+South Dakota,Hutchinson,3/20/2022,Commercial Turkeys,"50,350"
+Iowa,Warren,3/20/2022,Backyard Mixed Species (non-poultry),5
+Nebraska,Butler,3/22/2022,Commercial Broiler Chickens,"570,000"
+South Dakota,Beadle,3/22/2022,Commercial Turkeys,"29,473"
+South Dakota,Hanson,3/22/2022,Commercial Turkeys,"94,585"
+South Dakota,Charles Mix,3/22/2022,Commercial Turkeys,"57,100"
+Maine,Cumberland,3/22/2022,Backyard Mixed Species (poultry),247
+South Dakota,Edmunds,3/23/2022,Commercial Turkeys,"30,756"
+South Dakota,Kingsbury,3/23/2022,Commercial Layer Chickens,"121,193"
+South Dakota,Beadle,3/23/2022,Commercial Turkeys,"49,892"
+New York,Suffolk,3/23/2022,Commercial Upland Game Producer,"6,000"
+Michigan,Macomb,3/24/2022,Backyard Mixed Species (non-poultry),66
+Nebraska,Butler,3/24/2022,Commercial Broiler Chickens,"417,000"
+Iowa,Buena Vista,3/24/2022,Commercial Turkeys,"53,804"
+South Dakota,Jerauld,3/24/2022,Commercial Turkeys,"45,000"
+South Dakota,Hutchinson,3/25/2022,Commercial Turkeys,"46,700"
+Kansas,Mitchell,3/25/2022,Backyard Mixed Species (non-poultry),20
+New York,Suffolk,3/25/2022,Backyard Mixed Species (poultry),408
+Iowa,Franklin,3/25/2022,Commercial Pullet Chickens,"250,239"
+Minnesota,Mower,3/25/2022,Backyard Mixed Species (non-poultry),20
+Minnesota,Meeker,3/25/2022,Commercial Turkeys,"240,000"
+South Dakota,Bon Homme,3/26/2022,Backyard Mixed Species (non-poultry),226
+Missouri,Gentry,3/26/2022,Backyard Mixed Species (non-poultry),113
+Nebraska,Holt,3/26/2022,Backyard Mixed Species (non-poultry),53
+Maine,Washington,3/26/2022,Backyard Mixed Species (non-poultry),18
+Minnesota,Stearns,3/26/2022,Commercial Turkeys,"23,798"
+South Dakota,Hutchinson,3/27/2022,Commercial Turkeys,"41,500"
+South Dakota,McPherson,3/27/2022,Commercial Turkeys,"43,500"
+South Dakota,Clark,3/27/2022,Commercial Turkeys,"43,136"
+Iowa,Hamilton,3/28/2022,Commercial Turkeys,"25,805"
+Iowa,Guthrie,3/28/2022,Commercial Layer Chickens,"1,460,030"
+North Carolina,Johnston,3/29/2022,Commercial Turkeys,"32,137"
+South Dakota,Spink,3/29/2022,Commercial Turkeys,"45,865"
+South Dakota,Bon Homme,3/29/2022,Commercial Turkeys,"48,191"
+Maine,Knox,3/29/2022,Backyard Mixed Species (non-poultry),46
+Massachusetts,Berkshire,3/29/2022,Backyard Mixed Species (non-poultry),236
+Minnesota,Lac Qui Parle,3/29/2022,Commercial Turkeys,"22,000"
+Minnesota,Kandiyohi,3/29/2022,Commercial Turkeys,"40,000"
+Ohio,Franklin,3/29/2022,Backyard Mixed Species (non-poultry),15
+North Dakota,Kidder,3/29/2022,Backyard Mixed Species (non-poultry),26
+South Dakota,Edmunds,3/29/2022,Commercial Turkeys,"22,278"
+New York,Monroe,3/29/2022,Backyard Mixed Species (poultry),400
+Wyoming,Johnson,3/29/2022,Backyard Mixed Species (non-poultry),38
+Wyoming,Park,3/30/2022,Backyard Mixed Species (non-poultry),40
+Maine,Lincoln,3/30/2022,Backyard Mixed Species (non-poultry),3
+South Dakota,Brule,3/30/2022,Commercial Turkeys,"55,219"
+Iowa,Buena Vista,3/30/2022,Commercial Turkeys,"35,638"
+Minnesota,Stearns,3/31/2022,Backyard Mixed Species (non-poultry),115
+South Dakota,McPherson,3/31/2022,Commercial Turkeys,"26,048"
+Minnesota,Morrison,3/31/2022,Commercial Turkeys,"52,000"
+Illinois,Carroll,3/31/2022,Backyard Mixed Species (non-poultry),38
+North Dakota,Dickey,3/31/2022,Backyard Chickens (non-poultry),27
+Iowa,Cherokee,3/31/2022,Commercial Turkeys,"88,039"
+Iowa,Osceola,3/31/2022,Commercial Layer Chickens,"5,011,726"
+Wyoming,Fremont,4/1/2022,Backyard Mixed Species (non-poultry),47
+Missouri,Jasper,4/1/2022,Commercial Turkeys,"35,321"
+South Dakota,Edmunds,4/1/2022,Commercial Turkey Breeder,"30,757"
+North Dakota,Dickey,4/1/2022,Commercial Turkeys,"60,746"
+Wisconsin,Rock ,4/1/2022,Backyard Mixed Species (non-poultry),22
+Minnesota,Stearns,4/1/2022,Commercial Turkeys,"28,000"
+South Dakota,Charles Mix,4/1/2022,Commercial Turkeys,"69,684"
+North Carolina,Johnston,4/2/2022,Commercial Turkeys,"9,546"
+North Carolina,Johnston,4/2/2022,Commercial Turkeys,"18,888"
+North Carolina,Wayne,4/2/2022,Commercial Turkeys,"16,924"
+Texas,Erath,4/2/2022,Commercial Upland Game Producer,"1,649"
+South Dakota,Spink,4/2/2022,Commercial Turkeys,"43,300"
+North Dakota,LaMoure,4/2/2022,Commercial Turkeys,"27,400"
+South Dakota,Lake,4/2/2022,Commercial Turkeys,"58,904"
+Iowa,Hamilton,4/2/2022,Commercial Turkey Supplier,"8,082"
+Iowa,Sac,4/2/2022,Commercial Turkeys,"37,240"
+Iowa,Humboldt,4/3/2022,Commercial Layer Chicken Breeder,"14,984"
+Minnesota,LeSueur,4/3/2022,Commercial Turkeys,"20,000"
+Minnesota,Kandiyohi,4/3/2022,Commercial Turkeys,"40,000"
+Minnesota,Becker,4/3/2022,Commercial Turkeys,"45,000"
+Minnesota,Kandiyohi,4/3/2022,Commercial Turkeys,"49,000"
+Minnesota,Dodge,4/3/2022,Commercial Turkeys,"20,265"
+North Dakota,LaMoure,4/4/2022,Commercial Turkeys,"50,850"
+Minnesota,Morrison,4/4/2022,Commercial Turkeys,"34,000"
+Minnesota,Kandiyohi,4/4/2022,Commercial Turkeys,"20,450"
+South Dakota,McPherson,4/4/2022,Commercial Turkeys,"61,043"
+Wyoming,Sheridan,4/5/2022,Backyard Mixed Species (non-poultry),45
+Nebraska,Scotts Bluff,4/5/2022,Backyard Mixed Species (non-poultry),33
+North Dakota,Cass,4/5/2022,Backyard Mixed Species (non-poultry),105
+Minnesota,Waseca,4/5/2022,Commerical Poultry Processor,"26,525"
+Minnesota,Meeker,4/5/2022,Commercial Turkeys,"128,000"
+Minnesota,Morrison,4/5/2022,Commercial Turkeys,"27,675"
+Minnesota,Morrison,4/5/2022,Commercial Turkeys,"105,335"
+New York,Orleans,4/5/2022,Backyard Chickens (poultry),31
+Maine,Waldo,4/5/2022,Backyard Mixed Species (non-poultry),47
+North Carolina,Wayne,4/5/2022,Commercial Turkeys,"14,175"
+South Dakota,Faulk,4/5/2022,Commercial Turkeys,"48,114"
+Missouri,Lawrence,4/5/2022,Commercial Poultry,"27,633"
+Minnesota,Big Stone,4/5/2022,Commercial Turkeys,"52,000"
+South Dakota,Clark,4/5/2022,Commercial Turkeys,"24,600"
+South Dakota,Spink,4/5/2022,Commercial Turkeys,"27,650"
+South Dakota,Beadle,4/5/2022,Commercial Turkeys,"55,571"
+Iowa,Hardin,4/5/2022,Commercial Turkeys,"46,000"
+Minnesota,Stearns,4/5/2022,Commercial Turkeys,"41,350"
+Wyoming,Park,4/6/2022,Backyard Mixed Species (non-poultry),100
+North Carolina,Wayne,4/6/2022,Commercial Broiler Chickens,"216,049"
+North Carolina,Wayne,4/6/2022,Commercial Broiler Chickens,"65,601"
+Missouri,Dade,4/6/2022,Commercial Turkeys,"14,000"
+Minnesota,Waseca,4/6/2022,Commercial Turkeys,"20,438"
+South Dakota,McPherson,4/6/2022,Commercial Turkeys,"45,900"
+Wisconsin,Racine,4/6/2022,Backyard Mixed Species (poultry),204
+New York,Fulton,4/6/2022,Backyard Chickens (non-poultry),14
+Montana,Judith Basin,4/7/2022,Backyard Mixed Species (non-poultry),15
+Montana,Cascade,4/7/2022,Backyard Mixed Species (poultry),"22,000"
+North Carolina,Wayne,4/7/2022,Commercial Turkeys,"18,546"
+Minnesota,Renville,4/7/2022,Commercial Turkeys,"76,381"
+Minnesota,Kandiyohi,4/8/2022,Commercial Turkey Breeder,"21,250"
+South Dakota,Clark,4/8/2022,Commercial Turkeys,"38,678"
+Indiana,Elkhart,4/8/2022,Commercial Duck Breeder,"4,724"
+North Dakota,Stutsman,4/8/2022,Backyard Mixed Species (poultry),38
+Minnesota,Otter Tail,4/8/2022,Commercial Turkeys,"30,000"
+South Dakota,Edmunds,4/8/2022,Commercial Turkeys,"36,377"
+Colorado,Pitkin,4/8/2022,Backyard Mixed Species (poultry),34
+Minnesota,Stearns,4/9/2022,Commercial Turkeys,"26,293"
+Minnesota,LeSueur,4/9/2022,Commercial Turkeys,"38,000"
+Minnesota,Swift,4/9/2022,Commercial Turkeys,"145,000"
+South Dakota,Yankton,4/9/2022,Commercial Turkeys,"25,000"
+Michigan,Menominee,4/11/2022,Backyard Mixed Species (non-poultry),67
+Wisconsin,Barron,4/12/2022,Commercial Turkeys,"46,507"
+Minnesota,Morrison,4/12/2022,Commercial Turkeys,"45,000"
+Minnesota,Kandiyohi,4/12/2022,Commercial Turkeys,"38,000"
+Minnesota,Yellow Medicine,4/12/2022,Commercial Turkeys,"50,000"
+Minnesota,Benton,4/12/2022,Backyard Mixed Species (non-poultry),126
+Minnesota,Morrison,4/12/2022,Commercial Broiler Chickens,"43,286"
+Minnesota,Morrison,4/12/2022,Commercial Layer Chickens,"214,277"
+Montana,Toole,4/12/2022,Backyard Mixed Species (non-poultry),21
+North Carolina,Wayne,4/12/2022,Commercial Broiler Chickens,"89,702"
+North Dakota,Sheridan,4/12/2022,Backyard Mixed Species (non-poultry),30
+Nebraska,Dixon,4/12/2022,Commercial Layer Chickens,"1,746,863"
+Kansas,McPherson,4/13/2022,Commercial Turkey Breeder,"6,900"
+Minnesota,Benton,4/13/2022,Backyard Mixed Species (non-poultry),7
+Minnesota,Blue Earth,4/13/2022,Commercial Turkeys,"22,500"
+Minnesota,Waseca,4/13/2022,Commercial Turkeys,"20,000"
+Minnesota,Otter Tail,4/13/2022,Commercial Turkeys,"36,000"
+Michigan,Menominee,4/13/2022,Backyard Mixed Species (poultry),351
+North Dakota,Barnes,4/13/2022,Backyard Mixed Species (poultry),90
+South Dakota,Deuel,4/13/2022,Commercial Upland Game Producer,"1,392"
+Indiana,Elkhart,4/14/2022,Commercial Ducks,"6,379"
+Minnesota,Meeker,4/14/2022,Commercial Turkeys,"73,207"
+Minnesota,Blue Earth,4/14/2022,Commercial Turkeys,"23,000"
+Wisconsin,Sheboygan,4/14/2022,Backyard Mixed Species (non-poultry),15
+Wisconsin,Columbia,4/14/2022,Backyard Mixed Species (poultry),44
+North Dakota,LaMoure,4/14/2022,Backyard Mixed Species (non-poultry),12
+Idaho,Caribou,4/14/2022,Backyard Mixed Species (non-poultry),7
+Idaho,Gooding,4/14/2022,Backyard Mixed Species (poultry),20
+Michigan,Macomb,4/15/2022,Backyard Mixed Species (non-poultry),42
+Michigan,Livingston,4/15/2022,Backyard Mixed Species (non-poultry),20
+Wisconsin,Polk,4/15/2022,Commercial Turkeys,"20,000"
+Pennsylvania,Lancaster,4/15/2022,Commercial Layer Chickens,"1,443,000"
+Utah,Utah,4/15/2022,Backyard Mixed Species (non-poultry),7
+Michigan,Menominee,4/16/2022,Backyard Mixed Species (non-poultry),25
